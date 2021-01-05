@@ -25,4 +25,9 @@
         <constructor-arg name="name" value="subeily3——"/>
     </bean>
 
+    <!--别名，如果添加了别名，我们也可以使用别名获取到这个对象-->
+    <alias name="userT" alias="userNew"/>
+
+    
+
 </beans>
