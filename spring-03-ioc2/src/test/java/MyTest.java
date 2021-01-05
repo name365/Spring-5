@@ -17,7 +17,16 @@ public class MyTest {
     public void test(){
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
         // 在执行getBean的时候, user已经创建好, 通过无参构造
-        UserT user = (UserT) context.getBean("userT");
+        UserT user = (UserT) context.getBean("u3");
+        // 调用对象的方法 .
+        user.show();
+    }
+
+    @Test
+    public void test2(){
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        // 在执行getBean的时候, user已经创建好, 通过无参构造
+        UserT user = (UserT) context.getBean("u3");
         // 调用对象的方法 .
         user.show();
     }

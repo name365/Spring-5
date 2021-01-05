@@ -20,9 +20,23 @@
 <!--    </bean>-->
 
     <!-- 第三种：根据参数名字设置 -->
-    <bean id="userT" class="com.github.subei.pojo.UserT">
-        <!-- name指参数名 -->
-        <constructor-arg name="name" value="subeily3——"/>
+<!--    <bean id="userT" class="com.github.subei.pojo.UserT">-->
+<!--        &lt;!&ndash; name指参数名 &ndash;&gt;-->
+<!--        <constructor-arg name="name" value="subeily3——"/>-->
+<!--    </bean>-->
+
+    <!--别名，如果添加了别名，我们也可以使用别名获取到这个对象-->
+<!--    <alias name="userT" alias="userNew"/>-->
+
+    <!--bean就是java对象,由Spring创建和管理-->
+
+    <!--
+       id:bean 的唯一标识符，也就是相当于我们学的对象名
+       class:bean 对象所对应的全限定名：包名+类型
+       name:也是别名,而且name可以同时取多个别名
+    -->
+    <bean id="user2" class="com.github.subei.pojo.UserT" name="user2,u2,u3">
+        <property name="name" value="懒羊羊的蛋糕店！"/>
     </bean>
 
 </beans>

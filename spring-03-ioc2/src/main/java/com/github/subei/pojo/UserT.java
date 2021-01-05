@@ -7,6 +7,10 @@ public class UserT {
         this.name = name;
     }
 
+    public UserT() {
+        System.out.println("UserT被创建了");
+    }
+
     public String getName() {
         return name;
     }
