@@ -1,8 +1,8 @@
-import com.github.subei.dao.UserDaoImpl;
 import com.github.subei.dao.UserDaoMysqlImpl;
-import com.github.subei.dao.UserDaoOracleImpl;
-import com.github.subei.dao.UserDaoSqlserverImpl;
 import com.github.subei.service.UserServiceImpl;
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MyTest {
     public static void main(String[] args) {
@@ -11,5 +11,13 @@ public class MyTest {
 
         userService.setUserDao(new UserDaoMysqlImpl());
         userService.getUser();
+    }
+
+    @Test
+    public void test2(){
+        // 获取AppLicationcontext;拿到Spring容器
+        ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+        UserServiceImpl serviceImpl = (UserServiceImpl) context.getBean("UserServiceImpl");
+        serviceImpl.getUser();
     }
 }

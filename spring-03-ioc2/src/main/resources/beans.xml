@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="user" class="com.github.subei.pojo.User">
+        <property name="name" value="subei"/>
+    </bean>
+
+    <!-- 第一种：根据index参数下标设置 -->
+<!--    <bean id="userT" class="com.github.subei.pojo.UserT">-->
+<!--        <constructor-arg index="0" value="subeily——"/>-->
+<!--    </bean>-->
+
+
+    <!-- 第二种：根据参数类型设置，不建议使用 -->
+<!--    <bean id="userT" class="com.github.subei.pojo.UserT">-->
+<!--        <constructor-arg type="java.lang.String" value="subeily2——"/>-->
+<!--    </bean>-->
+
+    <!-- 第三种：根据参数名字设置 -->
+    <bean id="userT" class="com.github.subei.pojo.UserT">
+        <!-- name指参数名 -->
+        <constructor-arg name="name" value="subeily3——"/>
+    </bean>
+
+</beans>
