@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="address" class="com.github.subei.pojo.Address">
+        <property name="address" value="成都"/>
+    </bean>
+
+    <bean id="student" class="com.github.subei.pojo.Student">
+        <!-- 第一种：普通值注入，value -->
+        <property name="name" value="subei"/>
+        <!-- 第二种：Bean注入，ref -->
+        <property name="address" ref="address"/>
+        <!-- 第三种：数组注入，ref -->
+        <property name="books">
+            <array>
+                <value>Mybatis</value>
+                <value>Spring</value>
+                <value>SpringMVC</value>
+            </array>
+        </property>
+
+        <!-- 第四种：list注入，ref -->
+        <property name="hobby">
+            <list>
+                <value>家里蹲</value>
+                <value>精神萎靡</value>
+                <value>无法沟通</value>
+            </list>
+        </property>
+
+        <!-- 第五种：Map注入 -->
+        <property name="card">
+            <map>
+                <entry key="学生证" value="20201014"/>
+                <entry key="身份证" value="14253686"/>
+            </map>
+        </property>
+
+        <!-- 第六种：set注入 -->
+        <property name="games">
+            <set>
+                <value>保卫萝卜1</value>
+                <value>保卫萝卜2</value>
+                <value>保卫萝卜3</value>
+            </set>
+        </property>
+
+        <!-- 第七种：null注入 -->
+        <property name="wife">
+            <null/>
+        </property>
+
+        <!-- 第八种：Properties注入 -->
+        <property name="info">
+            <props>
+                <prop key="学号">20210106</prop>
+                <prop key="性别">保密</prop>
+                <prop key="姓名">subei</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>

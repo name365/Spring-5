@@ -65,17 +65,30 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.test2 (1)">
-    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyTest.test (2)">
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="Spring-02-helloSpring" />
+      <module name="spring-04-di" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MyTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-04-di" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-03-ioc2" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-05-Autowired" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,16 +105,6 @@
     </configuration>
     <configuration name="MyTest.test2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-03-ioc2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-01-ioc" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <option name="METHOD_NAME" value="test2" />
@@ -158,19 +161,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyTest (1)" />
-      <item itemvalue="Application.MyTest (2)" />
-      <item itemvalue="JUnit.MyTest.test2" />
       <item itemvalue="JUnit.MyTest.test" />
       <item itemvalue="JUnit.MyTest.test2 (1)" />
+      <item itemvalue="Application.MyTest" />
+      <item itemvalue="JUnit.MyTest.test (1)" />
+      <item itemvalue="JUnit.MyTest.test (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.test (2)" />
+        <item itemvalue="JUnit.MyTest.test (1)" />
+        <item itemvalue="Application.MyTest" />
         <item itemvalue="JUnit.MyTest.test2 (1)" />
         <item itemvalue="JUnit.MyTest.test" />
-        <item itemvalue="Application.MyTest (2)" />
-        <item itemvalue="JUnit.MyTest.test2" />
-        <item itemvalue="Application.MyTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +192,8 @@
       <workItem from="1609841053923" duration="3824000" />
       <workItem from="1609847564737" duration="3495000" />
       <workItem from="1609852236179" duration="1626000" />
-      <workItem from="1609853884112" duration="2705000" />
+      <workItem from="1609853884112" duration="3308000" />
+      <workItem from="1609928417855" duration="10271000" />
     </task>
     <servers />
   </component>
@@ -221,10 +225,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609847957937" />
-    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1609853534451">
+    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1609942848808">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1609853534451" />
+    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1609942848808" />
     <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609848031308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -233,37 +237,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="110" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609848511436" />
-    <state width="1493" height="191" key="GridCell.Tab.0.bottom" timestamp="1609856467983">
+    <state width="922" height="198" key="GridCell.Tab.0.bottom" timestamp="1609946692722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609856467983" />
-    <state width="1493" height="191" key="GridCell.Tab.0.center" timestamp="1609856467983">
+    <state width="922" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609946692722" />
+    <state width="922" height="198" key="GridCell.Tab.0.center" timestamp="1609946692722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609856467983" />
-    <state width="1493" height="191" key="GridCell.Tab.0.left" timestamp="1609856467983">
+    <state width="922" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609946692722" />
+    <state width="922" height="198" key="GridCell.Tab.0.left" timestamp="1609946692722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609856467983" />
-    <state width="1493" height="191" key="GridCell.Tab.0.right" timestamp="1609856467983">
+    <state width="922" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609946692722" />
+    <state width="922" height="198" key="GridCell.Tab.0.right" timestamp="1609946692722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609856467983" />
+    <state width="922" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609946692722" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1609853863040">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609853863040" />
-    <state x="356" y="119" key="new project wizard" timestamp="1609852276048">
+    <state x="356" y="119" key="new project wizard" timestamp="1609942254505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="356" y="119" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1609852276048" />
+    <state x="356" y="119" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1609942254505" />
     <state x="858" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1609853649113">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="858" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1609853649113" />
-    <state x="565" y="100" key="spring file set editor" timestamp="1609852587513">
+    <state x="565" y="100" key="spring file set editor" timestamp="1609942909505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="565" y="100" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1609852587513" />
+    <state x="565" y="100" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1609942909505" />
   </component>
 </project>
