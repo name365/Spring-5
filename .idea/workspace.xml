@@ -63,12 +63,26 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.test (2)">
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MyTest (2)">
+    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-04-di" />
+      <module name="spring-06-anno" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-07-appconfig" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="spring-06-anno" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,26 +102,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-03-ioc2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.test2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-03-ioc2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,19 +155,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyTest" />
-      <item itemvalue="JUnit.MyTest.test" />
-      <item itemvalue="JUnit.MyTest.test2 (1)" />
+      <item itemvalue="Application.MyTest (1)" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="JUnit.MyTest.test (1)" />
       <item itemvalue="JUnit.MyTest.test (2)" />
+      <item itemvalue="Application.MyTest (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest (2)" />
+        <item itemvalue="Application.MyTest (1)" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.MyTest.test (2)" />
         <item itemvalue="JUnit.MyTest.test (1)" />
-        <item itemvalue="Application.MyTest" />
-        <item itemvalue="JUnit.MyTest.test2 (1)" />
-        <item itemvalue="JUnit.MyTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +189,8 @@
       <workItem from="1609853884112" duration="3308000" />
       <workItem from="1609928417855" duration="10271000" />
       <workItem from="1610788370119" duration="1352000" />
-      <workItem from="1611537111498" duration="4295000" />
+      <workItem from="1611537111498" duration="6507000" />
+      <workItem from="1611543813736" duration="4907000" />
     </task>
     <servers />
   </component>
@@ -227,10 +222,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609847957937" />
-    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1611539413403">
+    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1611547391886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1611539413403" />
+    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1611547391886" />
     <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609848031308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -239,37 +234,53 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="110" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609848511436" />
-    <state width="922" height="198" key="GridCell.Tab.0.bottom" timestamp="1611541030784">
+    <state width="922" height="239" key="GridCell.Tab.0.bottom" timestamp="1611548155171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="922" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611541030784" />
-    <state width="922" height="198" key="GridCell.Tab.0.center" timestamp="1611541030784">
+    <state width="922" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611548155171" />
+    <state width="922" height="239" key="GridCell.Tab.0.center" timestamp="1611548155171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="922" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611541030784" />
-    <state width="922" height="198" key="GridCell.Tab.0.left" timestamp="1611541030784">
+    <state width="922" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611548155171" />
+    <state width="922" height="239" key="GridCell.Tab.0.left" timestamp="1611548155171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="922" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611541030784" />
-    <state width="922" height="198" key="GridCell.Tab.0.right" timestamp="1611541030784">
+    <state width="922" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611548155171" />
+    <state width="922" height="239" key="GridCell.Tab.0.right" timestamp="1611548155171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="922" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611541030784" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1609853863040">
+    <state width="922" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611548155171" />
+    <state width="922" height="239" key="GridCell.Tab.1.bottom" timestamp="1611548155172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609853863040" />
-    <state x="356" y="119" key="new project wizard" timestamp="1609942254505">
+    <state width="922" height="239" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611548155172" />
+    <state width="922" height="239" key="GridCell.Tab.1.center" timestamp="1611548155171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="356" y="119" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1609942254505" />
+    <state width="922" height="239" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1611548155171" />
+    <state width="922" height="239" key="GridCell.Tab.1.left" timestamp="1611548155171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="922" height="239" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1611548155171" />
+    <state width="922" height="239" key="GridCell.Tab.1.right" timestamp="1611548155171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="922" height="239" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1611548155171" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1611543918652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611543918652" />
+    <state x="356" y="119" key="new project wizard" timestamp="1611547230816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="356" y="119" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1611547230816" />
     <state x="858" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1609853649113">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="858" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1609853649113" />
-    <state x="565" y="100" key="spring file set editor" timestamp="1609942909505">
+    <state x="565" y="100" key="spring file set editor" timestamp="1611543963314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="565" y="100" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1609942909505" />
+    <state x="565" y="100" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1611543963314" />
   </component>
 </project>
