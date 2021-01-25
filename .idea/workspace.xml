@@ -60,15 +60,69 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-08-proxy/src/main/java/com/github/subei/demo3" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
-  <component name="RunManager" selected="Application.MyTest (2)">
-    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-06-anno" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.subei.Demo4" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\Github\Spring-5\spring-08-proxy\src\main\java\com\github\subei\demo3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client (3)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.subei.demo2.Client" />
+      <module name="spring-08-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.subei.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.subei.demo3.Client" />
+      <module name="spring-08-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.subei.demo3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.subei.Demo4.Client" />
+      <module name="spring-08-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.subei.Demo4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.subei.demo.Client" />
+      <module name="spring-08-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.subei.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,33 +130,6 @@
     <configuration name="MyTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <module name="spring-07-appconfig" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="spring-06-anno" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-04-di" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-05-Autowired" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,19 +182,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyTest (1)" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="JUnit.MyTest.test (1)" />
-      <item itemvalue="JUnit.MyTest.test (2)" />
       <item itemvalue="Application.MyTest (2)" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Client (2)" />
+      <item itemvalue="Application.Client (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.MyTest (2)" />
-        <item itemvalue="Application.MyTest (1)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.MyTest.test (2)" />
-        <item itemvalue="JUnit.MyTest.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +217,8 @@
       <workItem from="1609928417855" duration="10271000" />
       <workItem from="1610788370119" duration="1352000" />
       <workItem from="1611537111498" duration="6507000" />
-      <workItem from="1611543813736" duration="4907000" />
+      <workItem from="1611543813736" duration="5565000" />
+      <workItem from="1611552928095" duration="12571000" />
     </task>
     <servers />
   </component>
@@ -222,10 +250,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609847957937" />
-    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1611547391886">
+    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1611585438597">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1611547391886" />
+    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1611585438597" />
     <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609848031308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -234,22 +262,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="110" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609848511436" />
-    <state width="922" height="239" key="GridCell.Tab.0.bottom" timestamp="1611548155171">
+    <state width="922" height="198" key="GridCell.Tab.0.bottom" timestamp="1611586816249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="922" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611548155171" />
-    <state width="922" height="239" key="GridCell.Tab.0.center" timestamp="1611548155171">
+    <state width="922" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611586816249" />
+    <state width="922" height="198" key="GridCell.Tab.0.center" timestamp="1611586816249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="922" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611548155171" />
-    <state width="922" height="239" key="GridCell.Tab.0.left" timestamp="1611548155171">
+    <state width="922" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611586816249" />
+    <state width="922" height="198" key="GridCell.Tab.0.left" timestamp="1611586816248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="922" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611548155171" />
-    <state width="922" height="239" key="GridCell.Tab.0.right" timestamp="1611548155171">
+    <state width="922" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611586816248" />
+    <state width="922" height="198" key="GridCell.Tab.0.right" timestamp="1611586816249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="922" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611548155171" />
+    <state width="922" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611586816249" />
     <state width="922" height="239" key="GridCell.Tab.1.bottom" timestamp="1611548155172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -270,14 +298,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611543918652" />
-    <state x="356" y="119" key="new project wizard" timestamp="1611547230816">
+    <state x="356" y="119" key="new project wizard" timestamp="1611564613672">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="356" y="119" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1611547230816" />
-    <state x="858" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1609853649113">
+    <state x="356" y="119" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1611564613672" />
+    <state x="858" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1611585465532">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="858" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1609853649113" />
+    <state x="858" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1611585465532" />
     <state x="565" y="100" key="spring file set editor" timestamp="1611543963314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

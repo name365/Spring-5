@@ -17,6 +17,8 @@
         <module>spring-05-Autowired</module>
         <module>spring-06-anno</module>
         <module>spring-07-appconfig</module>
+        <module>spring-08-proxy</module>
+        <module>spring-09-aop</module>
     </modules>
 
     <dependencies>
@@ -31,6 +33,12 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.4</version>
         </dependency>
     </dependencies>
 
