@@ -2,23 +2,25 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-02-helloSpring" />
-        <module name="spring-08-proxy" />
-        <module name="spring-07-appconfig" />
-        <module name="spring-09-aop" />
-        <module name="spring-01-ioc" />
-        <module name="spring-04-di" />
-        <module name="spring-05-Autowired" />
-        <module name="spring-03-ioc2" />
         <module name="spring-06-anno" />
+        <module name="spring-07-appconfig" />
+        <module name="spring-04-di" />
+        <module name="spring-09-AOP" />
+        <module name="spring-08-proxy" />
+        <module name="spring-03-ioc2" />
+        <module name="spring-01-ioc" />
+        <module name="spring-05-Autowired" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-02-hellospring" target="1.5" />
+      <module name="spring-09-aop" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

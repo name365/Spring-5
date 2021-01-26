@@ -61,10 +61,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-08-proxy/src/main/java/com/github/subei/demo3" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -74,7 +74,7 @@
       <recent name="F:\Java\Github\Spring-5\spring-08-proxy\src\main\java\com\github\subei\demo3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (3)">
+  <component name="RunManager" selected="Application.MyTest">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.subei.demo2.Client" />
       <module name="spring-08-proxy" />
@@ -127,9 +127,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-07-appconfig" />
+      <module name="spring-09-AOP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,19 +182,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyTest (2)" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
+      <item itemvalue="Application.MyTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.MyTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -219,6 +219,12 @@
       <workItem from="1611537111498" duration="6507000" />
       <workItem from="1611543813736" duration="5565000" />
       <workItem from="1611552928095" duration="12571000" />
+      <workItem from="1611626818011" duration="5749000" />
+      <workItem from="1611639800707" duration="1575000" />
+      <workItem from="1611641404166" duration="421000" />
+      <workItem from="1611652234418" duration="176000" />
+      <workItem from="1611652430191" duration="3691000" />
+      <workItem from="1611656140142" duration="2766000" />
     </task>
     <servers />
   </component>
@@ -238,6 +244,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="444" y="27" key="#MyTest" timestamp="1611653321027">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="444" y="27" key="#MyTest/0.0.1536.824@0.0.1536.824" timestamp="1611653321027" />
     <state x="444" y="27" key="#MyTest_(1)" timestamp="1609847884917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -246,38 +256,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="444" y="27" key="#MyTest_2/0.0.1536.824@0.0.1536.824" timestamp="1609847952362" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1611652456584">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1611652456584" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609847957937">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609847957937" />
-    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1611585438597">
+    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1611652764770">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1611585438597" />
-    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609848031308">
+    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1611652764770" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611639854296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609848031308" />
-    <state x="549" y="110" key="FileChooserDialogImpl" timestamp="1609848511436">
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1611639854296" />
+    <state x="221" y="108" key="FileChooserDialogImpl" timestamp="1611633301749">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="110" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609848511436" />
-    <state width="922" height="198" key="GridCell.Tab.0.bottom" timestamp="1611586816249">
+    <state x="221" y="108" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611633301749" />
+    <state width="744" height="236" key="GridCell.Tab.0.bottom" timestamp="1611658546973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="922" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611586816249" />
-    <state width="922" height="198" key="GridCell.Tab.0.center" timestamp="1611586816249">
+    <state width="744" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611658546973" />
+    <state width="744" height="236" key="GridCell.Tab.0.center" timestamp="1611658546973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="922" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611586816249" />
-    <state width="922" height="198" key="GridCell.Tab.0.left" timestamp="1611586816248">
+    <state width="744" height="236" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611658546973" />
+    <state width="744" height="236" key="GridCell.Tab.0.left" timestamp="1611658546973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="922" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611586816248" />
-    <state width="922" height="198" key="GridCell.Tab.0.right" timestamp="1611586816249">
+    <state width="744" height="236" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611658546973" />
+    <state width="744" height="236" key="GridCell.Tab.0.right" timestamp="1611658546973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="922" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611586816249" />
+    <state width="744" height="236" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611658546973" />
     <state width="922" height="239" key="GridCell.Tab.1.bottom" timestamp="1611548155172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -294,21 +308,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="922" height="239" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1611548155171" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1611543918652">
+    <state x="270" y="0" key="SettingsEditor" timestamp="1611656576477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611543918652" />
-    <state x="356" y="119" key="new project wizard" timestamp="1611564613672">
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611656576477" />
+    <state x="356" y="119" width="688" height="679" key="new project wizard" timestamp="1611652475686">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="356" y="119" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1611564613672" />
-    <state x="858" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1611585465532">
+    <state x="356" y="119" width="688" height="679" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1611652475686" />
+    <state x="858" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1611653111294">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="858" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1611585465532" />
-    <state x="565" y="100" key="spring file set editor" timestamp="1611543963314">
+    <state x="858" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1611653111294" />
+    <state x="565" y="100" key="spring file set editor" timestamp="1611653251238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="565" y="100" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1611543963314" />
+    <state x="565" y="100" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1611653251238" />
   </component>
 </project>

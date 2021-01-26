@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- 注册bean -->
+    <bean id="userService" class="com.github.subei.service.UserServiceImpl"/>
+    <bean id="log" class="com.github.subei.log.Log"/>
+    <bean id="afterLog" class="com.github.subei.log.AfterLog"/>
+
+    <!-- 第三种方法:使用注解方式实现 -->
+    <bean id="annotationPointCut" class="com.github.subei.diy.DiyPointCut"/>
+    <!--  -->
+    <aop:aspectj-autoproxy/>
+
+<!--    &lt;!&ndash; 方式一:使用原生Spring API接口 &ndash;&gt;-->
+<!--    &lt;!&ndash; 配置AOP:需要导入AOP的约束 &ndash;&gt;-->
+<!--    <aop:config>-->
+<!--        &lt;!&ndash; 切入点:expression:表达式 , execution(要执行的位置！* * * *) &ndash;&gt;-->
+<!--        <aop:pointcut id="pointcut" expression="execution(* com.github.subei.service.UserServiceImpl.*(..))"/>-->
+<!--        &lt;!&ndash; 执行环绕增加! advice-ref执行方法 , pointcut-ref切入点 &ndash;&gt;-->
+<!--        <aop:advisor advice-ref="log" pointcut-ref="pointcut"/>-->
+<!--        <aop:advisor advice-ref="afterLog" pointcut-ref="pointcut"/>-->
+<!--    </aop:config>-->
+
+    <!--  第二种：自定义类  -->
+<!--    <bean id="diy" class="com.github.subei.diy.DiyPointCut"/>-->
+
+<!--    <aop:config>-->
+<!--        &lt;!&ndash;  自定义切面，ref要引用的类  &ndash;&gt;-->
+<!--        <aop:aspect ref="diy">-->
+<!--            &lt;!&ndash;  切入点  &ndash;&gt;-->
+<!--            <aop:pointcut id="point" expression="execution(* com.github.subei.service.UserServiceImpl.*(..))"/>-->
+<!--            &lt;!&ndash;  通知  &ndash;&gt;-->
+<!--            <aop:before method="before" pointcut-ref="point" />-->
+<!--            <aop:after method="after" pointcut-ref="point"/>-->
+<!--        </aop:aspect>-->
+<!--    </aop:config>-->
+
+</beans>

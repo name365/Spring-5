@@ -1,0 +1,14 @@
+com\github\subei\demo2\Client.class
+com\github\subei\demo\Proxy.class
+com\github\subei\demo2\UserServiceProxy.class
+com\github\subei\demo\Host.class
+com\github\subei\Demo4\ProxyInvocationHandler.class
+com\github\subei\Demo4\Client.class
+com\github\subei\demo\Rent.class
+com\github\subei\demo3\Client.class
+com\github\subei\demo3\ProxyInvocationHandler.class
+com\github\subei\demo\Client.class
+com\github\subei\demo3\Rent.class
+com\github\subei\demo3\Host.class
+com\github\subei\demo2\UserServiceImpl.class
+com\github\subei\demo2\UserService.class

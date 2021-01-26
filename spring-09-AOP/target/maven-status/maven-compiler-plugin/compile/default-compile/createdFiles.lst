@@ -1,0 +1,5 @@
+com\github\subei\service\UserServiceImpl.class
+com\github\subei\log\Log.class
+com\github\subei\annocut\AnnotationPointCut.class
+com\github\subei\log\AfterLog.class
+com\github\subei\service\UserService.class
