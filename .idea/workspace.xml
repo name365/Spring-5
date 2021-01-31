@@ -55,16 +55,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-08-proxy/src/main/java/com/github/subei/demo3" />
+    <property name="last_opened_file_path" value="E:/WX/SH/26-微信小程序/参考1/myVideo-master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -74,7 +75,7 @@
       <recent name="F:\Java\Github\Spring-5\spring-08-proxy\src\main\java\com\github\subei\demo3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyTest">
+  <component name="RunManager" selected="JUnit.MyTest.selectUser">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.subei.demo2.Client" />
       <module name="spring-08-proxy" />
@@ -114,22 +115,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.subei.demo.Client" />
-      <module name="spring-08-proxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.subei.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-09-AOP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MyTest.selectUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-10-mybatis" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-09-AOP" />
+      <option name="METHOD_NAME" value="selectUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,19 +180,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.MyTest" />
+      <item itemvalue="JUnit.MyTest.selectUser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.selectUser" />
         <item itemvalue="Application.MyTest" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +223,12 @@
       <workItem from="1611652234418" duration="176000" />
       <workItem from="1611652430191" duration="3691000" />
       <workItem from="1611656140142" duration="5097000" />
+      <workItem from="1611716483894" duration="628000" />
+      <workItem from="1611736089797" duration="5286000" />
+      <workItem from="1611742179854" duration="384000" />
+      <workItem from="1611755358510" duration="4405000" />
+      <workItem from="1611993917064" duration="2756000" />
+      <workItem from="1612081967615" duration="6124000" />
     </task>
     <servers />
   </component>
@@ -244,6 +248,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="647" y="71" key="#Inspections" timestamp="1611738979927">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="647" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1611738979927" />
     <state x="444" y="27" key="#MyTest" timestamp="1611653321027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -260,38 +268,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1611652456584" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609847957937">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611741717961">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609847957937" />
-    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1611652764770">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1611741717961" />
+    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1612099443831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1611652764770" />
+    <state x="935" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1612099443831" />
     <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611639854296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1611639854296" />
-    <state x="221" y="108" key="FileChooserDialogImpl" timestamp="1611633301749">
+    <state x="221" y="108" key="FileChooserDialogImpl" timestamp="1611994278667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="221" y="108" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611633301749" />
-    <state width="744" height="236" key="GridCell.Tab.0.bottom" timestamp="1611662466413">
+    <state x="221" y="108" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611994278667" />
+    <state width="1493" height="177" key="GridCell.Tab.0.bottom" timestamp="1612098770730">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="744" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611662466413" />
-    <state width="744" height="236" key="GridCell.Tab.0.center" timestamp="1611662466413">
+    <state width="1493" height="177" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612098770730" />
+    <state width="1493" height="177" key="GridCell.Tab.0.center" timestamp="1612098770730">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="744" height="236" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611662466413" />
-    <state width="744" height="236" key="GridCell.Tab.0.left" timestamp="1611662466413">
+    <state width="1493" height="177" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1612098770730" />
+    <state width="1493" height="177" key="GridCell.Tab.0.left" timestamp="1612098770730">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="744" height="236" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611662466413" />
-    <state width="744" height="236" key="GridCell.Tab.0.right" timestamp="1611662466413">
+    <state width="1493" height="177" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1612098770730" />
+    <state width="1493" height="177" key="GridCell.Tab.0.right" timestamp="1612098770730">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="744" height="236" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611662466413" />
+    <state width="1493" height="177" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612098770730" />
     <state width="922" height="239" key="GridCell.Tab.1.bottom" timestamp="1611548155172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -308,21 +316,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="922" height="239" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1611548155171" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1611656576477">
+    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1611741441698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611656576477" />
+    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1611741441698" />
+    <state x="551" y="48" key="Maven.ArtifactSearchDialog" timestamp="1611742556130">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="48" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1611742556130" />
+    <state x="498" y="0" key="SettingsEditor" timestamp="1611758793074">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611758793074" />
     <state x="356" y="119" width="688" height="679" key="new project wizard" timestamp="1611662453029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="356" y="119" width="688" height="679" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1611662453029" />
-    <state x="858" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1611653111294">
+    <state x="858" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1612095623336">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="858" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1611653111294" />
-    <state x="565" y="100" key="spring file set editor" timestamp="1611653251238">
+    <state x="858" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1612095623336" />
+    <state x="565" y="100" key="spring file set editor" timestamp="1612097282623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="565" y="100" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1611653251238" />
+    <state x="565" y="100" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1612097282623" />
   </component>
 </project>

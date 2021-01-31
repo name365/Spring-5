@@ -14,7 +14,7 @@
 
     <!-- 第三种方法:使用注解方式实现 -->
     <bean id="annotationPointCut" class="com.github.subei.diy.DiyPointCut"/>
-    <!--  -->
+    <!-- 开启注解支持！ -->
     <aop:aspectj-autoproxy/>
 
 <!--    &lt;!&ndash; 方式一:使用原生Spring API接口 &ndash;&gt;-->
